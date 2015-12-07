@@ -58,6 +58,8 @@ span {
     font-weight: bold;
 }
 
+/* Exercise 4: messing with tables */
+
 table {
     margin: 10px;
 
@@ -76,6 +78,62 @@ td {
     padding: 5px;
     border: 1px solid #ccc;
 }
+
+
+
+/* Exercise 5: adjusting the footer*/
+footer {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+#links a {
+     text-decoration: none;
+     color: black;
+    
+}
+
+
+ul li {
+    margin: 20px;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: tomato;
+}
+
+#otherPages {
+    background-color: black;
+    color: white;
+    float: left;
+    width: 50%;
+}
+
+#partners {
+    float: right;
+    width: 50%;
+    background-color: black;
+ 
+}
+
+img {
+    width: 100px;
+
+}
+
+#partners ul {
+ margin: 0;
+ list-style-type: none;
+    
+}
+
+#partners ul li {
+    display: inline-block;
+}
+
 
 
 
