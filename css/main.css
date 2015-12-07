@@ -53,3 +53,30 @@ nav li {
 nav a {
     text-decoration: none;
 }
+
+span {
+    font-weight: bold;
+}
+
+table {
+    margin: 10px;
+
+
+}
+
+tr {
+display: table-row;    
+border-collapse: collapse;
+border: 3px solid #ccc;
+
+
+}
+
+td {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+
+
+
