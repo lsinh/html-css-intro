@@ -1,35 +1,55 @@
 body {
-                margin: 0;
-            }
-            /* select all the tags <section> */
-            section {
-                border-bottom: 1px solid black;
-                overflow: hidden;
-            }
-            /* select all the tags that have
+    margin: 0;
+}
+
+
+/* select all the tags <section> */
+
+section {
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+
+
+/* select all the tags that have
                     class="technologies"
                     or even class="technologies some-other-class" 
                     or even class="some-other-class technologies some-third-class"
             */
-            .technologies {
-                background-color: aliceblue;
-            }
-            .schedule {
-                background-color: tomato;
-            }
-            .curriculum {
-                background-color: rgba(0, 255, 0, 0.5);
-            }
-            /* select all the UL elements that are anywhere insde a NAV element */
-            nav ul {
-                list-style: none;
-            }
-            nav li {
-                display: inline;
-                border: 1px solid black;
-                padding: 5px;
-                margin-left: 10px;
-            }
-            nav a {
-                text-decoration: none;
-            }
+
+.technologies {
+    background-color: aliceblue;
+}
+
+.schedule {
+    background-color: tomato;
+}
+
+.curriculum {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+
+/* select all the UL elements that are anywhere insde a NAV element */
+
+nav ul {
+    list-style: none;
+    background-color: #33CC99 ;
+    margin-top: -5px;
+}
+
+nav li {
+    /*changed display from inline to inline block the background color in nav ul now extends to the full block as opposed to just text*/
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+nav a {
+    text-decoration: none;
+}
